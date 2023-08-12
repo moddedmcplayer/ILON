@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ILON", "ILON\ILON.csproj", "{F0FA2D32-EE7A-4F66-8F9C-B6D8BEDD860F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{75EF1993-AF5B-476D-8323-DBF572421343}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "Server\Server.csproj", "{AF89C92A-C34D-422F-93FA-28687F886127}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +10,13 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F0FA2D32-EE7A-4F66-8F9C-B6D8BEDD860F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F0FA2D32-EE7A-4F66-8F9C-B6D8BEDD860F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F0FA2D32-EE7A-4F66-8F9C-B6D8BEDD860F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F0FA2D32-EE7A-4F66-8F9C-B6D8BEDD860F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75EF1993-AF5B-476D-8323-DBF572421343}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75EF1993-AF5B-476D-8323-DBF572421343}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75EF1993-AF5B-476D-8323-DBF572421343}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75EF1993-AF5B-476D-8323-DBF572421343}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF89C92A-C34D-422F-93FA-28687F886127}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF89C92A-C34D-422F-93FA-28687F886127}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF89C92A-C34D-422F-93FA-28687F886127}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF89C92A-C34D-422F-93FA-28687F886127}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

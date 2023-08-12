@@ -2,8 +2,9 @@
 
 public class InlinedReferences
 {
-    public string[] InlinedMethods { get; set; }
-    public SerializedMethodInfo[] Calls { get; set; }
+    public SerializedTypeInfo[] InlinedTypes { get; set; }
+    public SerializedMethodInfo[] InlinedMethods { get; set; }
+    public string[] InlinedStrings { get; set; }
 
     // For deserialization
 #pragma warning disable CS8618
@@ -12,9 +13,10 @@ public class InlinedReferences
     {
     }
 
-    public InlinedReferences(string[] inlinedMethods, SerializedMethodInfo[] calls)
+    public InlinedReferences(SerializedTypeInfo[] inlinedTypes, SerializedMethodInfo[] inlinedMethods, string[] inlinedStrings)
     {
+        InlinedTypes = inlinedTypes;
         InlinedMethods = inlinedMethods;
-        Calls = calls;
+        InlinedStrings = inlinedStrings;
     }
 }
